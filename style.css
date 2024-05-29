@@ -1,0 +1,468 @@
+.collapse{
+    justify-content: flex-end;
+}
+.main{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0em;
+}
+.ses{
+    width: 250px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+    background-color: #272727;
+    color: white;
+    box-shadow: 1px 1px 20px 1px black;
+    flex: 1 1 250px;
+    margin: 1em;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.ses:hover{
+    transform: scale(1.3);
+}
+.ses img{
+    width: 200px;
+    height: 200px;
+    margin: 0.5em;
+}
+.ses h2{
+    font-weight: 500;
+    font-size: medium;
+    margin: 0.5em;
+}
+.ses p{
+    font-size: small;
+    font-weight: 300;
+    text-align: center;
+    margin: 0.5em;
+}
+.onizleme{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.onizleme h6{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.onizleme p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.onizleme button{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.onizleme button:hover{
+    transform: scale(1.1);
+}
+.container-fluid{
+    background-color: #131614;
+}
+.nav-link{
+    transition: all 0.2s;
+    position: relative;
+}
+.nav-link:hover::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover::after{
+    opacity: 1;
+}
+.bioimg{
+    border: 10px solid #272727;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px black;
+    transition: 0.3s;
+}
+.bioimg:hover{
+    transform: scale(1.1);
+}
+.main3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.main3ici{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.main3ici1{
+    width: 47.5%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.main3ici2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.bio{
+    width: 92%;
+    height: 95%;
+}
+.main3ici3{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    background-color: #272727;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.main3ici3:hover{
+    transform: scale(1.1);
+}
+.biobaslik{
+    color: white;
+    text-align: center;
+}
+.biop{
+    color: white;
+}
+.yilinsanatcisi{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.yilinsanatcisi1{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.yilinsanatcisi2{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.yilinsanatcisi3{
+    width: 47.5%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.yilinimg{
+    border: 10px solid #272727;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px black;
+    transition: 0.3s;
+}
+.yilinimg:hover{
+    transform: scale(1.1);
+}
+.yilinsanatcisi4{
+    width: 100%;
+    height: 50%;
+}
+.yilinyazi{
+    width: 90%;
+    height: 94%;
+}
+.yilinyazi1{
+    color: white;
+}
+.yilinsanatcisi5{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    background-color: #272727;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.yilinsanatcisi5:hover{
+    transform: scale(1.1);
+}
+.formain{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.formain2{
+    width: 60%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.formain3{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.formain4{
+    width: 70%;
+    height: 70%;
+    margin-top: 50px;
+}
+.cizgi{
+    border-left: 4px solid rgb(1, 177, 1);
+    height: 100%;
+}
+.btnrenk{
+    background-color: #272727;
+    border: 0px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    transition: 0.3s;
+    color: white;
+}
+.btnrenk:hover{
+    background-color: rgb(1, 177, 1);
+    color: #272727;
+}
+.pmain1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.pmain2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pmain3{
+    width: 80%;
+    height: 100%;
+}
+.pmainyazi{
+    color: white;
+}
+.pmainbtn{
+    padding: 10px;
+    border: 0px solid;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(1, 177, 1);
+    font-weight: bolder;
+    transition: 0.1s;
+    margin-left: 10px;
+}
+.pmainbtn:hover{
+    transform: scale(1.1);
+    background-color: rgb(3, 112, 3);
+}
+.pmainbtn1{
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    transition: 0.1s;
+    margin-left: 5px;
+}
+.pmainbtn1:hover{
+    transform: scale(1.1);
+}
+.pmainozellik{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.pmainozellik1{
+    width: 30%;
+    height: 100%;
+}
+.tableozellik{
+    font-weight: bolder;
+    color: white;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+.yazimain{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.yazimain1{
+    width: 50%;
+    height: 100%;
+}
+.yazimain1 h1,p{
+    color: white;
+    text-align: center;
+}
+.premium{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.premium1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    border-radius: 15px;
+}
+.premium2{
+    width: 95%;
+    height: 95%;
+}
+.premium2 h1{
+    font-weight: bolder;
+}
+.yancizgi{
+    border: 3px solid;
+    width: 100%;
+}
+.premiumliste{
+    color: white;
+}
+.bpremiumbtn{
+    width: 90%;
+    height: 50px;
+    border: 0px solid;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 17px;
+}
+.bpremiumbtn:hover{
+    transform: scale(1.1);
+}
+.premiumaltyazi{
+    color: gray;
+    font-weight: light;
+}
+.footer{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+.footerr{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer1{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+.footer1 h5{
+    color: #919496;
+}
+.footer1 p{
+    text-align: start;
+}
+.footeryazi{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.footeryazi a:hover{
+    color: rgb(0, 179, 0);
+}
+.footeryazia:link{
+    text-decoration: none;
+    color: white;
+}
+.footeryazia:visited{
+    color: white;
+}
+.footer2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.footer3{
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer4{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+}
+.footer4 a:visited{
+    color:#919496;
+}
+.footer4 a:hover{
+    color: green;
+}
+.footer4 a:link{
+    text-decoration: none;
+}
+.footer5{
+    width: 300px;
+    height: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer5 a:visited{
+    color:#919496;
+}
+.footer5 a:link{
+    text-decoration: none;
+}
